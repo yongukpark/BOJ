@@ -1,5 +1,4 @@
 //대각선 중복을 판별하는 26번줄 abs(arr[j] - arr[a]) == a - j 이 식을 유도하는게 어려웠음
-
 #include <iostream>
 #include <queue>
 using namespace std;
