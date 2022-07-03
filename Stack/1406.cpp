@@ -1,4 +1,4 @@
-//쉬웠지만 이게 스택문제란걸 몰랐다면 조금 푸는데 시간이 오래걸렸을 것 같음
+//쉬웠지만 이게 스택문제란걸 몰랐다면 푸는데 시간이 오래걸렸을 것 같음
 #include <iostream>
 #include <string>
 #include <stack>
