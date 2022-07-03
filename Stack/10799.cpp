@@ -1,4 +1,4 @@
-//원리만 이해하면 굉장히 쉽게 풀렸음
+//원리만 이해하면 쉽게 풀렸음
 #include <iostream>
 #include <string>
 #include <stack>
