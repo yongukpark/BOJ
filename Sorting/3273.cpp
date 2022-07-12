@@ -1,4 +1,4 @@
-//정렬 문제라기 보다는 기본적인 투포인터 문제였다.
+//정렬 문제라기 보다는 기본적인 투포인터 문제엿음
 
 #include <iostream>
 #include <algorithm>
