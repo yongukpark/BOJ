@@ -20,11 +20,11 @@ cout.tie(0);
 
 |Container|random access|찾기|node 삽입/삭제|
 |---|---|---|---|
-|vector|O(1)|O(n)|O(n)|
-|deque|O(1)|(0)|(n)|
+|vector|**O(1)**|O(n)|O(n)|
+|deque|**O(1)**|(0)|(n)|
 |list|X|O(n)|O(1)|
-|set|X|O(log(n))|O(log(n))|
-|map|X|O(log(n))|O(log(n))|
+|set|X|**O(log(n))**|**O(log(n))**|
+|map|X|**O(log(n))**|**O(log(n))**|
 |stack|X|X|O(1)|
 |queue|X|X|O(1)|
-|priority queue|X|X|O(log(n))|
+|priority queue|X|X|**O(log(n))**|
