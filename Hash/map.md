@@ -8,3 +8,5 @@
 ### 메소드
 * size() map의 크기 구함
 * rbegin(), rend() 역방향으로 참조가능 (iter로 반환)
+* lower_bound(int) a보다 크거나 같은 원소 중 가장 작은 값을 return (없을경우 end()리턴) (iter로 반환)
+* erase(iterator) iterator위치에 있는 원소를 삭제함
