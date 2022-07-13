@@ -7,7 +7,6 @@ ios::sync_with_stdio(false);
 cin.tie(0);
 cout.tie(0);
 ```
-### #### <a href="Hash/map.md">Map</a>
 
 ## Algorithm
 #### <a href="Two pointer/Two pointer.md">Two pointer</a>
