@@ -11,7 +11,7 @@ cout.tie(0);
 #### <a href="Two pointer/Two pointer.md">Two pointer</a>
 
 ## Container
-#### <a href="Hash/map.md">map</a>
+#### <a href="Hash/map.md">Map</a>
 #### <a href="Priority Queue/Priority Queue.md">Priority Queue</a>
-#### <a href="Hash/set.md">set</a>
+#### <a href="Hash/set.md">Set</a>
 #### <a href="Sorting/Vector.md">Vector</a>
