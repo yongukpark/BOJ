@@ -16,7 +16,7 @@ cout.tie(0);
 #### <a href="Hash/map.md">Map</a>
 #### <a href="Priority Queue/Priority Queue.md">Priority Queue</a>
 #### <a href="Hash/set.md">Set</a>
-#### <a href="Sorting/Vector.md">Vector</a>
+#### <a href="String/Vector.md">Vector</a>
 
 |Container|random access|찾기|node 삽입/삭제|
 |---|---|---|---|
