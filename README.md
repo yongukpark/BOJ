@@ -9,6 +9,7 @@ cout.tie(0);
 ```
 
 ## Algorithm
+#### <a href="Greedy/Greedy.md">Greedy</a>
 #### <a href="Two pointer/Two pointer.md">Two pointer</a>
 
 ## Container
