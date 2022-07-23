@@ -9,6 +9,7 @@ cout.tie(0);
 ```
 
 ## Algorithm
+#### <a href="Dynamic Programming/Dynamic Programming.md">Greedy</a>
 #### <a href="Greedy/Greedy.md">Greedy</a>
 #### <a href="Two pointer/Two pointer.md">Two pointer</a>
 
