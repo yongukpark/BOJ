@@ -142,4 +142,4 @@
     cout << dp[num][weight];
   ```
 
- ##  <a href ="Dynamic Programming/12865.cpp">전체 소스코드</a>
+ ##  <a href ="../12865.cpp">전체 소스코드</a>
