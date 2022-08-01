@@ -14,7 +14,7 @@ cin.tie(0);
 cout.tie(0);
 ```
 
-## Algorithm
+## Index
 #### <a href="Dynamic Programming/Dynamic Programming.md">Dynamic Programming</a>
 * ##### <a href="Dynamic Programming/Knapsack Problem.md">Knapsack Problem</a>
 * ##### <a href="Dynamic Programming/LIS.md">LIS(Longest Increasing Subsequence)</a>
