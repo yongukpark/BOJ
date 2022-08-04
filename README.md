@@ -2,6 +2,7 @@
 ##### 공통부분수열 (LCS)      
 ##### 위상정렬   
 ##### 외판원문제  
+##### 비트마스킹(중요)
 ---
 ### <a href="https://www.onlinegdb.com/">컴파일러</a>
 ### <a href="https://www.acmicpc.net/">백준</a>
