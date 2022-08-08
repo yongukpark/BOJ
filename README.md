@@ -17,6 +17,7 @@ cout.tie(0);
 ```
 
 ## Index
+#### <a href="BFS/">BFS</a>
 #### <a href="BitMask/BitMask.md">BitMask</a>
 #### <a href="Dynamic Programming/Dynamic Programming.md">Dynamic Programming</a>
 * ##### <a href="Dynamic Programming/Knapsack Problem.md">Knapsack Problem</a>
