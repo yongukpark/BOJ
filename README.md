@@ -20,6 +20,7 @@ cout.tie(0);
 ## Index
 #### <a href="BFS/">BFS</a>
 * ##### <a href="BFS/0-1 BFS Algorithm.md">0-1 BFS Algorithm</a>
+#### <a href="Binary Search/Binary Search.md">Binary Search</a>
 #### <a href="BitMask/BitMask.md">BitMask</a>
 #### <a href="Dynamic Programming/Dynamic Programming.md">Dynamic Programming</a>
 * ##### <a href="Dynamic Programming/Knapsack Problem.md">Knapsack Problem</a>
