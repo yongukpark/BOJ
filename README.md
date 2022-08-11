@@ -22,6 +22,8 @@ cout.tie(0);
 * ##### <a href="BFS/0-1 BFS Algorithm.md">0-1 BFS Algorithm</a>
 #### <a href="Binary Search/Binary Search.md">Binary Search</a>
 #### <a href="BitMask/BitMask.md">BitMask</a>
+#### <a href="Brute force">Brute force</a>
+* ##### <a href="Brute force/MITM(Meet in the Middle).md">MITM(Meet in the Middle)</a>
 #### <a href="Dynamic Programming/Dynamic Programming.md">Dynamic Programming</a>
 * ##### <a href="Dynamic Programming/Knapsack Problem.md">Knapsack Problem</a>
 * ##### <a href="Dynamic Programming/LIS.md">LIS(Longest Increasing Subsequence)</a>
