@@ -31,8 +31,8 @@ cout.tie(0);
 #### <a href="Greedy/Greedy.md">Greedy</a>
 #### <a href="Hash/map.md">Map</a>
 #### Mathmatics
-* ##### <a href="Mathmatics/Modular Arithmetic.md">Modular Arithmetic</a>
 * ##### <a href="Mathmatics/Euclidean algorithm.md">Euclidean algorithm</a>
+* ##### <a href="Mathmatics/Modular Arithmetic.md">Modular Arithmetic</a>
 #### <a href="Priority Queue/Priority Queue.md">Priority Queue</a>
 #### <a href="Hash/set.md">Set</a>
 #### <a href="Two pointer/Two pointer.md">Two pointer</a>
