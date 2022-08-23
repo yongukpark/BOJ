@@ -30,7 +30,7 @@ cout.tie(0);
 * ##### <a href="Dynamic Programming/Plus-Minus.md">Plus-Minus</a>
 #### <a href="Greedy/Greedy.md">Greedy</a>
 #### <a href="Hash/map.md">Map</a>
-#### Mathmatics
+#### <a href="Mathmatics">Mathmatics</a>
 * ##### <a href="Mathmatics/Euclidean algorithm.md">Euclidean algorithm</a>
 * ##### <a href="Mathmatics/Modular Arithmetic.md">Modular Arithmetic</a>
 #### <a href="Priority Queue/Priority Queue.md">Priority Queue</a>
