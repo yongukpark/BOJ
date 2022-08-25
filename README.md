@@ -34,6 +34,8 @@ cout.tie(0);
 * ##### <a href="Mathmatics/Euclidean algorithm.md">Euclidean algorithm</a>
 * ##### <a href="Mathmatics/Modular Arithmetic.md">Modular Arithmetic</a>
 #### <a href="Priority Queue/Priority Queue.md">Priority Queue</a>
+#### <a href="Stack">Stack</a>
+* ##### <a href="Stack/후위표기법.md">후위표기법</a>
 #### <a href="Hash/set.md">Set</a>
 #### <a href="Two pointer/Two pointer.md">Two pointer</a>
 #### <a href="String/Vector.md">Vector</a>
