@@ -27,22 +27,22 @@ int arr[20003];
 void dij(int start)
 {
     priority_queue<pair<int,int>> pq;
-    pq.push({0,start});
+    pq.push({0,start}); //pq에 시작 정점과 아무곳도 방문안했으니 0의 가중치를넣음 / 단 pq에서는 pair에서 first를 우선 기준으로 삼기에 first에 가중치가 들어가야함
     arr[start] = 0;
     while(!pq.empty())
     {
         int now = pq.top().second;
-        int val = -pq.top().first; //음수로 해야 더 작은 간선이 우선시됨 / pq를 오름차순으로 해도됨
+        int val = -pq.top().first; //음수로 해야 더 작은 간선이 우선시됨 / 음수로 하기싫으면 pq를 오름차순으로 해도됨 greater<int>
         pq.pop();
-        
+        //if (cost > arr[now]) continue; 이것을 넣어 중복체크를 줄여 동작시간을 줄일 수 있음 가중치가 작은 간선먼저되기에 더 가중치가 크다라는 것은 이미 방문했다라는 뜻
         for(int i = 0 ; i < v[now].size() ; i++)
         {
             int cost = val + v[now][i].second;
             
-            if(cost < arr[v[now][i].first])
+            if(cost < arr[v[now][i].first]) //기존의 가중치보다 현재의 가중치가 더 적을 경우
             {
-                arr[v[now][i].first] = cost;
-                pq.push({-cost, v[now][i].first});
+                arr[v[now][i].first] = cost; //현재의 가중치를 기존의 가중치로 대신하고
+                pq.push({-cost, v[now][i].first}); //pq에 넣어 다음 루트로 넘어감
             }
         }
     }
@@ -67,14 +67,14 @@ int main()
     
     for(int i = 1 ; i <= V ; i++)
     {
-        arr[i] = 987654312;
+        arr[i] = 987654312; //최단거리를 찾는 알고리즘이므로 초기값을 최대로 설정
     }
     
     dij(start);
     
     for(int i = 1 ; i <= V ; i++)
     {
-        if(arr[i] == 987654312)
+        if(arr[i] == 987654312) //만약 방문할 수 없는 정점이라면
         {
             cout << "INF";
         }
