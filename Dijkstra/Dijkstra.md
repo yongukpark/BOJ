@@ -13,5 +13,76 @@
     * 또한 2를 선택하고 3,4로 가게 될 경우 2-3,2-4의 가중치에 1-2의 가중치를 더해야함
     * 이렇게 만들어진 1-3/1-4가중치와 기존의 1-3/1-4 가중치를 비교하여 더 낮은 값으로 갱신함
 
-## 구현
+## 구현 (<a href = "./1753.cpp">1753</a>)
+```cpp
+#include <iostream>
+#include <vector> 
+#include <utility>
+#include <queue>
+using namespace std;
 
+vector <pair<int,int>> v[20003];
+int arr[20003];
+
+void dij(int start)
+{
+    priority_queue<pair<int,int>> pq;
+    pq.push({0,start});
+    arr[start] = 0;
+    while(!pq.empty())
+    {
+        int now = pq.top().second;
+        int val = -pq.top().first; //음수로 해야 더 작은 간선이 우선시됨 / pq를 오름차순으로 해도됨
+        pq.pop();
+        
+        for(int i = 0 ; i < v[now].size() ; i++)
+        {
+            int cost = val + v[now][i].second;
+            
+            if(cost < arr[v[now][i].first])
+            {
+                arr[v[now][i].first] = cost;
+                pq.push({-cost, v[now][i].first});
+            }
+        }
+    }
+}
+
+int main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cout.tie(0);
+    
+    int V,e;
+    cin >> V >> e;
+    int start;
+    cin >> start;
+    for(int i = 0 ; i < e ; i++)
+    {
+        int a,b,c;
+        cin >> a >> b >> c;
+        v[a].push_back({b,c});
+    }
+    
+    for(int i = 1 ; i <= V ; i++)
+    {
+        arr[i] = 987654312;
+    }
+    
+    dij(start);
+    
+    for(int i = 1 ; i <= V ; i++)
+    {
+        if(arr[i] == 987654312)
+        {
+            cout << "INF";
+        }
+        else
+        {
+            cout << arr[i];
+        }
+        cout << '\n';
+    }
+}
+```
