@@ -16,27 +16,3 @@ ios::sync_with_stdio(false);
 cin.tie(0);
 cout.tie(0);
 ```
-
-## Index
-#### <a href="BFS/">BFS</a>
-* ##### <a href="BFS/0-1 BFS Algorithm.md">0-1 BFS Algorithm</a>
-#### <a href="Binary Search/Binary Search.md">Binary Search</a>
-#### <a href="BitMask/BitMask.md">BitMask</a>
-#### <a href="Brute force">Brute force</a>
-* ##### <a href="Brute force/MITM(Meet in the Middle).md">MITM(Meet in the Middle)</a>
-#### <a href="Dynamic Programming/Dynamic Programming.md">Dynamic Programming</a>
-* ##### <a href="Dynamic Programming/Knapsack Problem.md">Knapsack Problem</a>
-* ##### <a href="Dynamic Programming/LIS.md">LIS(Longest Increasing Subsequence)</a>
-* ##### <a href="Dynamic Programming/Plus-Minus.md">Plus-Minus</a>
-#### <a href="Greedy/Greedy.md">Greedy</a>
-#### <a href="Hash/map.md">Map</a>
-#### <a href="Mathmatics">Mathmatics</a>
-* ##### <a href="Mathmatics/Euclidean algorithm.md">Euclidean algorithm</a>
-* ##### <a href="Mathmatics/Modular Arithmetic.md">Modular Arithmetic</a>
-#### <a href="Priority Queue/Priority Queue.md">Priority Queue</a>
-#### <a href="Stack">Stack</a>
-* ##### <a href="Stack/후위표기법.md">후위표기법</a>
-#### <a href="Hash/set.md">Set</a>
-#### <a href="Tree/Tree.md">Tree</a>
-#### <a href="Two pointer/Two pointer.md">Two pointer</a>
-#### <a href="String/Vector.md">Vector</a>
